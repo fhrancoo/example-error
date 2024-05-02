@@ -1,5 +1,8 @@
 ---
 
+const VARIABLE_1 = import.meta.env.VARIABLE_1
+const VARIABLE_2 = import.meta.env.VARIABLE_2
+
 ---
 
 <html lang="en">
@@ -11,6 +14,7 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<p>Si las variables de entornos son cargadas deberia ver el mensaje de abajo.</p>
+		<h1>{`${VARIABLE_1} ${VARIABLE_2} !!`}</h1>
 	</body>
 </html>
