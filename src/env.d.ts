@@ -7,14 +7,3 @@ declare namespace App {
     readonly VARIABLE_2: string;
   }
 }
-
-
-
-// interface ImportMetaEnv {
-//   readonly VARIABLE_1: string;
-//   readonly VARIABLE_2: string;
-// }
-
-// interface ImportMeta {
-//   readonly env: ImportMetaEnv;
-// }
